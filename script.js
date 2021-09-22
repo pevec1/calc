@@ -10,14 +10,8 @@ do {
   switch (userChoice) {
     case "1":
       operator = prompt("Выберите операцию (+, -, *, /, %, sq, ^)");
-      // if (typeof operator == "object" || isNaN(operator) || operator == "") {
-      //   break;
-      // } else {
-        //numbers = setNumbers(operator);
         result = setNumbers(operator);
-        //result = calcResult(numbers[0], numbers[1], operator);
-        alert(result);
-      // }
+         alert(result);
       break;
     case "2":
     case null:
